@@ -14,6 +14,7 @@ public class SetExample {
         for(String country : countries){
             System.out.println(country);
         }
+
         // la Set nu avem indexi, nu putem parcurge cu fori, doar cu for each
 
 
