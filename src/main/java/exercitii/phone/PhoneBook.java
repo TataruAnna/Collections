@@ -39,7 +39,7 @@ public class PhoneBook {
         for(String blackListContact : blackList){
             if(allContacts.contains(blackListContact)){
 
-             allContacts.remove(blackListContact); //in timpul parcurgerii unei liste nu pot sa si modific (sa sterg sa adaug) elemente
+             allContacts.remove(blackListContact); //in timpul parcurgerii unei liste nu pot sa si modific (sa adaug) elemente
             }
         }
         return allContacts;

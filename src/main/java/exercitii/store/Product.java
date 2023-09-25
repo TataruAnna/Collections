@@ -27,7 +27,7 @@ public class Product {
         this.price = price;
     }
 
-    public Category getCategory() {
+    public  Category getCategory() {
         return category;
     }
 

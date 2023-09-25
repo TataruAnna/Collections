@@ -41,11 +41,11 @@ public class ShoppingCart {
             if(!cartItems.containsKey(product)){
                 throw new Exception("produsul nu exista ");
             }
-            if(quantity<cartItems.get(product)){
+            if(quantity>cartItems.get(product)){
                 throw new Exception("Produsul are o cantitate mai mica");
             }
 
-            cartItems.remove(product,cartItems.get(product)-quantity);
+            cartItems.put(product,cartItems.get(product)-quantity);
 
     }
 
